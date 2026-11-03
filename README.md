@@ -9,7 +9,6 @@ A REST API built with **Java, Spring Boot and MySQL** to manage students, course
 * CRUD operations for **Students** and **Courses**
 * **Enroll / unenroll** a student in a course (many-to-many relationship)
 * View all courses of a student and all students of a course
-* **Search**, **pagination** and **sorting** on students and courses
 * Input validation (`@Valid`, `@NotBlank`, `@Email`, `@Pattern`)
 * Global exception handling (`@RestControllerAdvice`) with proper 400 / 404 / 409 responses
 * DTOs used for requests and responses (entities are never exposed)
